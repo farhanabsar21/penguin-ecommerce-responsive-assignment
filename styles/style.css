@@ -1,0 +1,106 @@
+*{
+    color: #363958;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+    color: #363958;
+    font-weight: bold;
+}
+h3{
+    font-size: 30px;
+    color: #fabe4c;
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+}
+h5{
+    font-weight: bold;
+}
+i{
+    color: #ffffff;
+}
+.h1-penguin{
+    color: #fabe4c;
+}
+.h1-winter{
+    color: #363958;
+}
+.penguin-nav{
+    background-color: none;
+    padding: .75rem 0rem;
+}
+.logo{
+    width: 200px;
+}
+.penguin-banner{
+    background-color: #fef6e7;
+}
+.penguin-nav li{
+    padding-left: 1rem;
+    font-weight: bold;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #363958;
+}
+.penguin-button{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    background-image: linear-gradient(#a3bb44,#93a93d);
+    padding: .75rem 1.5rem;
+}
+
+.card{
+    border: none;
+    border-radius: 20px;
+}
+
+.card img{
+    height: 350px;
+    padding: 10px 10px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+
+.service{
+    width: 100;
+    background-color: #ffffff;
+    height: 130px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.service article{
+    padding: 0 20px;
+}
+.service img{
+    width: 100px;
+    height: 100px;
+}
+.service-image img{
+    width: 100%;
+}
+
+.about-us-image img{
+    height: 400px;
+}
+
+footer{
+    background-color: #fef6e7;
+}
+.form-control {
+    background:#ffffff;
+    border:none;
+    border-radius: 10px;
+    box-shadow:none;
+    outline:none;
+    color: #363958;
+    height: 45px;
+    margin-right: 10px;
+    width: 280px;
+  }

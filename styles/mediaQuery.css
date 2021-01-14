@@ -1,0 +1,36 @@
+@media (max-width: 576px){
+    h1{
+        font-size: 43px;
+    }
+    .banner-media{
+        margin-bottom: 2rem;
+    }
+    .card{
+        /height: 100%;
+    }
+    .penguin-card-two{
+        margin-top: 2.5rem;
+    }
+    .penguin-card-three{
+        margin-top: 5rem;
+    }
+    .men-media h2{
+        margin-top: 4rem;
+        margin-bottom: -1rem;
+    }
+    .services{
+        padding-top: 2rem;
+    }
+    .service-image{
+        padding: 4rem 1rem;
+    }
+    .about-us-content{
+        padding: 2rem 0;
+    }
+    .subscribe{
+        justify-content: center;
+    }
+    .form-control{
+        width: 100%;
+    }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Panda - Ecommerce Assignment</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mediaQuery.css">
+</head>
+<body>
+    <!-- bannerand navigation -->
+    <header class="penguin-banner">
+        <section class="container pt-3 pb-5">
+
+            <!-- navigation and logo -->
+            <nav class="navbar navbar-expand-lg navbar-light penguin-nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./icons/logo.png" class="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- banner Content -->
+            <div class="banner container py-4">
+                <div class="row">
+                    <!-- banner-main-content -->
+                    <div class="col-lg-6 d-flex align-items-center banner-media">
+                        <div class="contents py-2">
+                            <h1><span class="h1-penguin">BE THE PENGUINS</span></h1>
+                            <h1><span class="h1-winter">OF WINTER</span></h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam veniam, ipsum accusamus eum asperiores!</p>
+                            <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                        </div>
+                    </div>
+                    <!-- banner-main-content -->
+                    <div class="col-lg-6">
+                        <div class="banner-img w-100">
+                            <img src="./image/feature.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Main body section -->
+    <main>
+        <!-- Women products -->
+        <section class="container py-4" id="home">
+            <h2 class="pt-3">WOMEN JACKET</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+                <div class="col">
+                  <div class="card h-100 shadow container py-2 penguin-card-one">
+                    <img src="./image/women-1.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Yellow Coat Jacket</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>$234</h3>
+                        <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow container py-2 penguin-card-two">
+                        <img src="./image/women-2.png" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Ladies Jacket</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h3>$234</h3>
+                            <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow container py-2 penguin-card-three">
+                        <img src="./image/women-3.png" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Women Leather Jacket</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h3>$234</h3>
+                            <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+        </section>
+
+        <!-- Men products -->
+        <section class="container py-4 men-media">
+            <h2 class="pt-1">MEN JACKET</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+                <div class="col">
+                  <div class="card h-100 shadow container py-2 penguin-card-one">
+                    <img src="./image/men-1.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Snowboard Jackets Men</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <h3>$234</h3>
+                        <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow container py-2 penguin-card-two">
+                        <img src="./image/men-2.png" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Men Leather Jackets</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h3>$234</h3>
+                            <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow container py-2 penguin-card-three">
+                        <img src="./image/men-3.png" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Men Casual Jacket</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h3>$234</h3>
+                            <button class="btn penguin-button my-2"><span><i class="fas fa-shopping-cart pr-2"></i></span>BUY NOW</button>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+        </section>
+
+        <!-- services section -->
+        <section>
+            <div class="container py-5">
+                <div class="row flex-column-reverse flex-lg-row">
+                     <!-- services area column -->
+                    <div class="col-lg-5">
+                        <div class="services">
+                            <div class="service one d-flex justify-content-between shadow mb-4">
+                                <img src="./icons/perfect_fit.png">
+                                <article>
+                                    <h4>Find the Perfect Fit</h4>
+                                    <p>Everybody is different so we offer styles for everyone</p>
+                                </article>
+                            </div>
+                            <div class="service one d-flex justify-content-between shadow mb-4">
+                                <img src="./icons/free.png">
+                                <article>
+                                    <h4>Free Exchanges</h4>
+                                    <p>One of many reasons, you can shop in peace of mind</p>
+                                </article>
+                            </div>
+                            <div class="service one d-flex justify-content-between shadow mb-4">
+                                <img src="./icons/helpline.png">
+                                <article>
+                                    <h4>Contact Our Seller</h4>
+                                    <p>They are here for help you, thats why we pay them.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- services image area -->
+                     <div class="col-lg-7">
+                         <div class="service-image pl-2">
+                            <img src="./icons/services.png" alt="">
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us section -->
+        <section class="py-4" id="about-us">
+            <div class="about-us container">
+                <h2 class="pb-4">About Us</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="about-us-image">
+                            <img src="./image/store.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                        <div class="about-us-content">
+                            <h2>Till Don't Know Who We Are?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus culpa ipsam maiores doloribus, assumenda temporibus facere magnam amet quas suscipit?</p>
+                            <button class="btn penguin-button my-2"><span><i class="fas fa-download pr-2"></i></span>Download Progress Report</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer id="contact-us" class="mt-4">
+        <div class="subscribe container d-flex justify-content-center align-items-center">
+            <div class="subscribe-form py-5 text-center">
+                
+                <!-- email form section -->
+                <form class="form-inline">
+                    <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                    <div class="form-group"><button class="btn penguin-button my-2"><span><i class="fas fa-paper-plane pr-2"></i></span>Subscribe!</button></div>
+                </form>
+                <small>penguin @ 2021 . All Rights Reserved</small>
+            </div>
+        </div>
+    </footer>
+    <!-- javascript cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
